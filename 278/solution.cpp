@@ -30,7 +30,6 @@ int firstBadVersion(int n) {
     size_t high = n;
     size_t half = (low+high)/2;
     while(low < high){
-
         if (isBadVersion(half)){
             high = half;
         }
